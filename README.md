@@ -9,6 +9,7 @@ Set variable values in roles/common/vars/main.yml.
 Add the following environment variables:
 
 ```bash
+export DO_DROPLET_NAME='the Digital Ocean droplet name'
 export DO_TOKEN='the Digital Ocean API token'
 export DO_SSH_KEY_NAME='name of the Digital Ocean SSH key to use for setup'
 ```
