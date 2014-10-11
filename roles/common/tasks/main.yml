@@ -1,0 +1,4 @@
+---
+- include: essentials.yml
+- include: setup_locale.yml
+- include: customize_shell.yml

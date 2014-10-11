@@ -1,0 +1,2 @@
+---
+- include: reconfigure_locales.yml

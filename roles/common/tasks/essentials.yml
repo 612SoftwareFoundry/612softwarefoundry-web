@@ -1,0 +1,7 @@
+---
+- name: ensure git is installed
+  apt: pkg=git state=latest
+  sudo: yes
+
+- name: configure git globals
+  command: git config --global core.excludesfile ~/.gitignore_global

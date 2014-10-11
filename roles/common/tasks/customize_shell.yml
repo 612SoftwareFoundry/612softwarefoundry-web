@@ -1,0 +1,5 @@
+---
+- name: Add git-bash config file
+  copy: src=.git-bash dest=/home/{{user}}/.git-bash owner={{user}} group={{user}} mode=0644
+- name: Add git-bash config source
+  lineinfile: line=". /home/{{user}}/.git-bash" dest=/home/{{user}}/.bashrc state=present
